@@ -4,12 +4,13 @@ https://jiuzhang.com/solutions/knight-shortest-path-ii
 
 
 class Solution:
-    """a simple DP"""
+    """a simple DP with rolling array (left to right)"""
 
     # DIRECTIONS = ((-2, 1), (-1, 2), (1, 2), (2, 1)) # knight's moves to the right
-    DIRECTIONS = ((-2, -1), (-1, -2), (1, -2), (2, -1))  # knight's moves to the right
+    DIRECTIONS = ((-2, -1), (-1, -2), (1, -2), (2, -1))  # knight's moves to the current
 
     def shortest_path2(self, grid):
+        """main logic starts"""
         if not grid or not grid[0]:
             return -1
 

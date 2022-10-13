@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "ch36_dp2.lc398_longest_continuous_increasing_subsequence_ii.Solution",
+            "projectName": "jiuzhang-algo_f807cb7e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "ch36_dp2.lc76_longest_increasing_subsequence.Solution",
+            "projectName": "jiuzhang-algo_f807cb7e"
+        },
+        {
+            "type": "java",
             "name": "Launch UsingPrefixSum",
             "request": "launch",
             "mainClass": "lintcode406_minimum_size_subarray_sum.UsingPrefixSum",
